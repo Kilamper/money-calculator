@@ -8,9 +8,9 @@ Money Calculator es una aplicación Java diseñada para calcular la conversión 
 
 - **Conversión de Divisas:** Permite a los usuarios ingresar una cantidad, seleccionar las divisas de origen y destino, y calcular la conversión utilizando las tasas de cambio actuales o pasadas.
 
-* Selección de Fecha: La aplicación permite a los usuarios seleccionar una fecha específica para comprobar tasas de cambio históricas. Esto ha sido implementado mediante la utilización de la librería externa "JCalendar".
+* **Selección de Fecha**: La aplicación permite a los usuarios seleccionar una fecha específica para comprobar tasas de cambio históricas. Esto ha sido implementado mediante la utilización de la librería externa "JCalendar".
 
-+ Interfaz Gráfica Intuitiva: Diseño amigable que facilita la navegación y el uso de la aplicación, presentando un teclado numérico muy sencillo para que cualquier persona pueda utilizarlo.
++ **Interfaz Gráfica Intuitiva**: Diseño amigable que facilita la navegación y el uso de la aplicación, presentando un teclado numérico muy sencillo para que cualquier persona pueda utilizarlo.
 
 ## Integración con la API
 
