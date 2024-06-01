@@ -6,6 +6,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 
 public class DateFrame extends JFrame implements ActionListener {
@@ -14,8 +16,9 @@ public class DateFrame extends JFrame implements ActionListener {
     private JButton accept;
     private JButton cancel;
 
-    public DateFrame() {
-        ImageIcon icon = new ImageIcon("src/main/resources/Money-Calculator.png");
+    public DateFrame() throws MalformedURLException {
+        URL url = new URL("https://cdn-icons-png.flaticon.com/512/10059/10059897.png");
+        ImageIcon icon = new ImageIcon(url);
         this.setIconImage(icon.getImage());
         this.setTitle("Money calculator");
         this.setSize(340, 160);

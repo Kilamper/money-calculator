@@ -8,6 +8,8 @@ import software.ulpgc.moneycalculator.money.MoneyDisplay;
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,8 +20,9 @@ public class MainFrame extends JFrame {
     private MoneyDialog moneyDialog;
     private CurrencyDialog currencyDialog;
 
-    public MainFrame() throws HeadlessException {
-        ImageIcon icon = new ImageIcon("src/main/resources/Money-Calculator.png");
+    public MainFrame() throws HeadlessException, MalformedURLException {
+        URL url = new URL("https://cdn-icons-png.flaticon.com/512/10059/10059897.png");
+        ImageIcon icon = new ImageIcon(url);
         this.setTitle("Money calculator");
         this.setIconImage(icon.getImage());
         this.setSize(1000,650);

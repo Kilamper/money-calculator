@@ -6,12 +6,13 @@ import software.ulpgc.moneycalculator.currency.Currency;
 import software.ulpgc.moneycalculator.fixerws.FixerCurrencyLoader;
 import software.ulpgc.moneycalculator.fixerws.FixerExchangeRateLoader;
 
+import java.net.MalformedURLException;
 import java.util.List;
 
 public class Main {
     public static String date;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MalformedURLException {
         DateFrame dateFrame = new DateFrame();
         dateFrame.setVisible(true);
         while (date == null) {
