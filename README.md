@@ -15,3 +15,5 @@ Money Calculator es una aplicación Java diseñada para calcular la conversión 
 ## Integración con la API
 
 La aplicación utiliza una API sencilla y ligera conocida como Fixer para obtener tasas de cambio precisas entre 170 divisas de todo el mundo, actualizadas cada 60 segundos y con datos históricos desde 1999.
+
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/2f229d2a-4ac9-4ea0-9811-4aaaa71d78b2" />
